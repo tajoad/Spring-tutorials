@@ -1,0 +1,13 @@
+127.0.0.1 - - [08/Aug/2022:22:34:08 +0100] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:34:10 +0100] "GET /spring-rest-demo/ HTTP/1.1" 200 204
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:34:10 +0100] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:34:13 +0100] "GET /spring-rest-demo/api/students HTTP/1.1" 200 143
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:34:31 +0100] "GET /spring-rest-demo/api/students HTTP/1.1" 200 143
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:38:39 +0100] "GET /spring-rest-demo/ HTTP/1.1" 200 204
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:38:55 +0100] "GET /spring-rest-demo/api/students/0 HTTP/1.1" 500 777
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:39:42 +0100] "GET /spring-rest-demo/api/students/0 HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:39:49 +0100] "GET /spring-rest-demo/api/students/1 HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:39:57 +0100] "GET /spring-rest-demo/api/students/2 HTTP/1.1" 200 55
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:40:31 +0100] "GET /spring-rest-demo/api/students/0 HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:40:41 +0100] "GET /spring-rest-demo/api/students/2 HTTP/1.1" 200 55
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:22:40:53 +0100] "GET /spring-rest-demo/api/students/9 HTTP/1.1" 500 3931

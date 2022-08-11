@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<html>
+	
+	<body>
+	   <div class="container">
+		Hello World of Spring!
+		
+		<br><br>
+		
+		Hello ${param.studentName}
+		
+		<br><br>
+		
+		You are ${param.studentAge} years old!
+		</div>
+	</body>
+	
+</html>
